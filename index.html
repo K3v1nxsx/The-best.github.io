@@ -1,103 +1,49 @@
-```
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Página de inicio</title>
-	<link rel="stylesheet" href="styles.css">
+	<title>Tienda Online</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 	<header>
 		<nav>
 			<ul>
-				<li><a href="#sobre-mi">Sobre mí</a></li>
-				<li><a href="#proyectos">Proyectos</a></li>
-				<li><a href="#contacto">Contacto</a></li>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Productos</a></li>
+				<li><a href="#">Contacto</a></li>
 			</ul>
 		</nav>
 	</header>
 	<main>
-		<section id="sobre-mi">
-			<h1>Sobre mí</h1>
-			<p>Soy un desarrollador web apasionado...</p>
-		</section>
-		<section id="proyectos">
-			<h1>Proyectos</h1>
+		<section id="productos">
+			<h1>Productos</h1>
 			<ul>
-				<li>Proyecto 1</li>
-				<li>Proyecto 2</li>
-				<li>Proyecto 3</li>
+				<li>
+					<img src="producto1.jpg" alt="Producto 1">
+					<h2>Producto 1</h2>
+					<p>Precio: $10.99</p>
+					<button>Comprar</button>
+				</li>
+				<li>
+					<img src="producto2.jpg" alt="Producto 2">
+					<h2>Producto 2</h2>
+					<p>Precio: $9.99</p>
+					<button>Comprar</button>
+				</li>
 			</ul>
-		</section>
-		<section id="contacto">
-			<h1>Contacto</h1>
-			<p>Puedes contactarme a través de...</p>
 		</section>
 	</main>
 	<footer>
-		<p>&copy; 2024 Tu nombre</p>
+		<p>&copy; 2024 Tienda Online</p>
 	</footer>
-	<script src="script.js"></script>
 </body>
 </html>
 ```
 
-*styles.css*
-```
-body {
-	font-family: Arial, sans-serif;
-	margin: 0;
-	padding: 0;
-}
+Este código incluye:
 
-header {
-	background-color: #333;
-	color: #fff;
-	padding: 20px;
-	text-align: center;
-}
-
-nav ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	justify-content: space-between;
-}
-
-nav li {
-	margin-right: 20px;
-}
-
-nav a {
-	color: #fff;
-	text-decoration: none;
-}
-
-main {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 20px;
-}
-
-section {
-	background-color: #f7f7f7;
-	padding: 20px;
-	margin-bottom: 20px;
-	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-}
-
-h1 {
-	margin-top: 0;
-}
-
-footer {
-	background-color: #333;
-	color: #fff;
-	padding: 10px;
-	text-align: center;
-	clear: both;
-}
-```
-
-*script.js*
+- Un encabezado (`header`) con una navegación (`nav`) que incluye enlaces a las secciones de la tienda.
+- Un contenido principal (`main`) que incluye una sección de productos (`section`) con una lista de productos.
+- Un pie de página (`footer`) con información de copyright.
